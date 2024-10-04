@@ -1,3 +1,10 @@
+Nama    : Erlang Sinatrya Putra Yusya
+
+NIM     : 362358302083
+
+Kelas   : 2B TRPL
+        
+        
         Bagian 1 : Konsumsi API menggunakan PHP
 
 Code : [posts](index.php)
