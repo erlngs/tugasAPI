@@ -1,0 +1,69 @@
+/* Reset default margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya dasar untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Warna latar belakang yang lembut */
+    color: #333;
+    padding: 20px;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Warna gelap untuk teks */
+    font-size: 2.5em; /* Ukuran font yang lebih besar */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+    letter-spacing: 1px; /* Jarak antar huruf */
+}
+
+/* Gaya tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    border-radius: 10px; /* Sudut bulat untuk tabel */
+    overflow: hidden; /* Memastikan sudut bulat terlihat */
+}
+
+/* Gaya untuk header dan sel tabel */
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Gaya untuk header tabel dengan gradasi hijau */
+thead th {
+    background: linear-gradient(90deg, #1abc9c, #16a085); /* Gradasi hijau */
+    color: white;
+    font-weight: bold;
+}
+
+/* Gaya untuk baris tabel ganjil dan genap */
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Warna latar belakang baris genap */
+}
+
+/* Efek hover untuk baris tabel */
+tbody tr:hover {
+    background-color: #d5f5e3; /* Warna saat di-hover */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    transition: background-color 0.3s ease; /* Transisi yang halus */
+}
+
+/* Responsif: Ukuran font tabel pada perangkat kecil */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9rem;
+    }
+}
